@@ -9,3 +9,7 @@ $router->add('/', __DIR__ . '/../app/Controllers/home.php');
 $router->add('/about', __DIR__ . '/../app/Controllers/about.php');
 
 $router->dispatch($uri);
+
+//$router->add('/smt', function (){
+//
+//});
